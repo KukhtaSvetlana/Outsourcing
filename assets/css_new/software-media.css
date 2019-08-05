@@ -1,0 +1,196 @@
+@media (min-width:991px) and (max-width:1025px)
+ {
+   .lending-hire__product-item:nth-child(4n+1):not(:nth-child(25))::after{
+     content: none;
+   }
+   .lending-hire__product-item:nth-child(4n+4):not(:last-child)::after{
+     content: none;
+   }
+   .lending-form__wrap .outsource{
+       bottom: -28px;
+       right: 9px;
+       transform: none;
+   }
+}
+
+
+@media (min-width:764px) and (max-width:990px){
+  .lending-top{
+    background-position: 89% 42%;
+  }
+  .lending-partner__text::after{
+  left: calc(50% - 5%);
+  }
+  .lending-form__wrap{
+    left:0;
+  }
+  .lending-form__wrap .content-form__context{
+    width: 80%;
+  }
+  .lending-form__wrap .outsource{
+      bottom: -28px;
+      right: 9px;
+      transform: none;
+  }
+  .lending-technology__header{
+    padding: 1em 0 1em 0;
+  }
+  .lending-technology__check-out{
+    width: 40%;
+  }
+  .lending-technology__check-out p{
+    padding: 3em 2em 1em 2em;
+  }
+  .lending-technolog__imag-item img{
+    width: 100%;
+  }
+  .lending-technology__check-text p{
+    padding: 1em;
+    text-align: -webkit-center;
+    text-align: center;
+  }
+  .lending-hire{
+    height: auto;
+  }
+  .lending-hire__product-item:nth-child(4n+1):not(:nth-child(25))::after{
+    content: none;
+  }
+  .lending-hire__product-item:nth-child(4n+4):not(:last-child)::after{
+    content: none;
+  }
+  .lending-outsourcing__card{
+    margin: 1.0em 3em;
+  }
+}
+
+/* @media (min-width:764px) and (max-width:990px){
+  .lending-top{
+    background-position: 89% 42%;
+  }
+}
+ */
+
+
+@media (max-width: 764px){
+    .lending-top{
+      background: none;
+    }
+    .lending-top__text{
+      padding: .5em;
+    }
+    .lending-top__text h1{
+      padding: 0.8em;
+    }
+    .content-form__left{
+      margin: 0 0 1em 0;
+      padding: 1em;
+    }
+    .content-form__left p:nth-child(n+2){
+      padding: 1em;
+      padding-right:0;
+    }
+    .description-of-work{
+      padding: 1em;
+      font-size: 1.3em;
+      text-align: left;
+      margin: 0 auto;
+    }
+    .content-form__right{
+      margin-right: 0;
+    }
+    .lending-partner__text::after{
+      margin-left: -12%;
+    }
+    .information__img{
+      display: none;
+    }
+    .lending-form__wrap{
+      left:0;
+    }
+    .lending-form__wrap .content-form__context{
+      width: 100%;
+      left: 1px;
+    }
+    .lending-form__wrap .outsource{
+        bottom: -28px;
+        right: 9px;
+        transform: none;
+    }
+    .content-form__form-head{
+      font-size: 1.5em;
+    }
+    .lending-technology__header{
+      padding: 1em 0 1em 0;
+    }
+    .lending-technolog__check{
+      flex-direction: column;
+    }
+    .lending-technolog__image,.lending-technology__check-out{
+      width: 100%;
+    }
+    .lending-technology__check-out p{
+      padding-top: 2em;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .lending-technolog__imag-item img{
+      width: 100%;
+    }
+    .lending-technology__check-text p{
+      padding: 1em;
+      text-align: -webkit-center;
+      text-align: center;
+    }
+    .lending-hire__product-item span{
+      font-size: 0.7em;
+      line-height: .8;
+      width: 100%;
+      height: auto;
+      top: 84%;
+      left: 2%;
+    }
+    .lending-hire__product-item{
+      flex: 1 0 30%;
+      height: auto;
+    }
+    .lending-hire{
+      height: auto;
+    }
+    .lending-hire__header h2{
+      font-size: 1.6em;
+    }
+    .lending-hire__header p{
+      font-size: 0.6em;
+    }
+    .lending-hire__product-item:nth-child(4n+1):not(:nth-child(25))::after{
+      content: none;
+    }
+    .lending-hire__product-item:nth-child(4n+4):not(:last-child)::after{
+      content: none;
+    }
+    .lending-technology::after{
+      height: 3em;
+    }
+    .lending-hire::before, .lending-hire::after{
+      height: .3em;
+      bottom: -6px;
+    }
+    .lending-steps__step{
+      width: 100%;
+      padding: 1em;
+    }
+    .lending-steps__images{
+      display: none;
+    }
+    .lending-steps__number{
+      width: 0.8em;
+    }
+    .lending-steps__information-secrion p{
+      width: 180px;
+      text-align: left;
+      padding-top: 1em;
+    }
+    .lending-outsourcing__card{
+      margin: 1.0em 3em;
+    }
+}
